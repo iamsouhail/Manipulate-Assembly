@@ -12,7 +12,7 @@ namespace Logger
 
         static TheLogger()
         {
-            logger  = new ConsoleLogger();
+            logger  = new FileLogger("log.txt");
         }
 
 

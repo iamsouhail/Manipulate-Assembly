@@ -10,6 +10,7 @@ namespace Monitor
             Console.WriteLine("Hello world");
             Class1 qs = new Class1();
             Console.WriteLine(qs.add(5,6));
+           
         }
     }
 }
