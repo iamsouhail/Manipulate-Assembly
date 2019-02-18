@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using  Lib;
 
 namespace Monitor
 {
@@ -10,6 +7,9 @@ namespace Monitor
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello world");
+            Class1 qs = new Class1();
+            Console.WriteLine(qs.add(5,6));
         }
     }
 }
